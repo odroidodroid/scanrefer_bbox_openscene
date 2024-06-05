@@ -32,6 +32,8 @@ import json
 import time
 import clip
 
+## client added
+
 def gpt_ans(text):
     response = client.chat.completions.create(
         model="gpt-3.5-turbo-0125",
